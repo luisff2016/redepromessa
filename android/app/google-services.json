@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "964670440605",
+    "project_id": "rede-promessa",
+    "storage_bucket": "rede-promessa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964670440605:android:e6aba64aee42029d788074",
+        "android_client_info": {
+          "package_name": "com.lff.redepromessa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA469xbsqRp7QxkDwqb7IWlpH7uLDenPAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964670440605:android:63504388297e517d788074",
+        "android_client_info": {
+          "package_name": "com.mycompany.redepromessa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA469xbsqRp7QxkDwqb7IWlpH7uLDenPAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

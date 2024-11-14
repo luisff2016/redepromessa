@@ -1,0 +1,141 @@
+// Export pages
+export '/pages/login/login/login_widget.dart' show LoginWidget;
+export '/pages/ministerios/quiz_necessidades/quiz_necessidades_widget.dart'
+    show QuizNecessidadesWidget;
+export '/pages/organizacao/rel_fin_organizacao/rel_fin_organizacao_widget.dart'
+    show RelFinOrganizacaoWidget;
+export '/pages/notificao/criar_notificacao/criar_notificacao_widget.dart'
+    show CriarNotificacaoWidget;
+export '/pages/perfil/recuperar_senha/recuperar_senha_widget.dart'
+    show RecuperarSenhaWidget;
+export '/pages/perfil/meu_perfil/meu_perfil_widget.dart' show MeuPerfilWidget;
+export '/pages/login/pg_admin/pg_admin_widget.dart' show PgAdminWidget;
+export '/pages/perfil/alterar_senha/alterar_senha_widget.dart'
+    show AlterarSenhaWidget;
+export '/pages/editar_usuario/editar_usuario_widget.dart'
+    show EditarUsuarioWidget;
+export '/pages/usuario/ver_historico/ver_historico_widget.dart'
+    show VerHistoricoWidget;
+export '/pages/relatorio/relatorio_pessoal/relatorio_pessoal_widget.dart'
+    show RelatorioPessoalWidget;
+export '/pages/projeto/lista_projetos/lista_projetos_widget.dart'
+    show ListaProjetosWidget;
+export '/pages/projeto/ver_projeto/ver_projeto_widget.dart'
+    show VerProjetoWidget;
+export '/pages/perfil/tutorial/tutorial_widget.dart' show TutorialWidget;
+export '/pages/perfil/reportar_b_u_g/reportar_b_u_g_widget.dart'
+    show ReportarBUGWidget;
+export '/pages/perfil/sugerir_funcionalidade/sugerir_funcionalidade_widget.dart'
+    show SugerirFuncionalidadeWidget;
+export '/pages/projeto/ver_projeto_aceito/ver_projeto_aceito_widget.dart'
+    show VerProjetoAceitoWidget;
+export '/pages/login/pg_lider/pg_lider_widget.dart' show PgLiderWidget;
+export '/pages/doacoes/menu_doacoes/menu_doacoes_widget.dart'
+    show MenuDoacoesWidget;
+export '/pages/login/home_page/home_page_widget.dart' show HomePageWidget;
+export '/pages/cursos/listar_cursos/listar_cursos_widget.dart'
+    show ListarCursosWidget;
+export '/pages/projeto/compartilhar_projeto/compartilhar_projeto_widget.dart'
+    show CompartilharProjetoWidget;
+export '/pages/projeto/aviso_compartilhar/aviso_compartilhar_widget.dart'
+    show AvisoCompartilharWidget;
+export '/pages/projeto/gerenciar_projeto/gerenciar_projeto_widget.dart'
+    show GerenciarProjetoWidget;
+export '/pages/projeto/listar_requisitos/listar_requisitos_widget.dart'
+    show ListarRequisitosWidget;
+export '/pages/organizacao/home_organizacao/home_organizacao_widget.dart'
+    show HomeOrganizacaoWidget;
+export '/pages/atividade/agendar_atividade/agendar_atividade_widget.dart'
+    show AgendarAtividadeWidget;
+export '/pages/atividade/calendario/calendario_widget.dart'
+    show CalendarioWidget;
+export '/pages/doacoes/doacao_financeira/doacao_financeira_widget.dart'
+    show DoacaoFinanceiraWidget;
+export '/pages/rascunho/modelo_copy/modelo_copy_widget.dart'
+    show ModeloCopyWidget;
+export '/pages/cursos/criar_curso/criar_curso_widget.dart'
+    show CriarCursoWidget;
+export '/pages/material/incluir_material_curso/incluir_material_curso_widget.dart'
+    show IncluirMaterialCursoWidget;
+export '/pages/material/editar_material_curso/editar_material_curso_widget.dart'
+    show EditarMaterialCursoWidget;
+export '/pages/cursos/listar_material/listar_material_widget.dart'
+    show ListarMaterialWidget;
+export '/pages/material/anexar_material/anexar_material_widget.dart'
+    show AnexarMaterialWidget;
+export '/pages/doacoes/doacao_alimento/doacao_alimento_widget.dart'
+    show DoacaoAlimentoWidget;
+export '/pages/doacoes/doacao_livro/doacao_livro_widget.dart'
+    show DoacaoLivroWidget;
+export '/pages/doacoes/doacao_bem/doacao_bem_widget.dart' show DoacaoBemWidget;
+export '/pages/doacoes/doacao_roupa/doacao_roupa_widget.dart'
+    show DoacaoRoupaWidget;
+export '/pages/rascunho/registro_financeiro/registro_financeiro_widget.dart'
+    show RegistroFinanceiroWidget;
+export '/pages/projeto/escolher_projetos/escolher_projetos_widget.dart'
+    show EscolherProjetosWidget;
+export '/pages/atividade/escolher_atividades/escolher_atividades_widget.dart'
+    show EscolherAtividadesWidget;
+export '/pages/lider/escolher_colaboradores/escolher_colaboradores_widget.dart'
+    show EscolherColaboradoresWidget;
+export '/pages/notificao/aviso_notificacao_enviada/aviso_notificacao_enviada_widget.dart'
+    show AvisoNotificacaoEnviadaWidget;
+export '/pages/notificao/minhas_notificacoes/minhas_notificacoes_widget.dart'
+    show MinhasNotificacoesWidget;
+export '/pages/notificao/aviso_notificacao_apagada/aviso_notificacao_apagada_widget.dart'
+    show AvisoNotificacaoApagadaWidget;
+export '/pages/relatorio/relatorio_atividade/relatorio_atividade_widget.dart'
+    show RelatorioAtividadeWidget;
+export '/pages/cursos/gerenciar_curso/gerenciar_curso_widget.dart'
+    show GerenciarCursoWidget;
+export '/pages/cursos/agendar_encontro_presencial/agendar_encontro_presencial_widget.dart'
+    show AgendarEncontroPresencialWidget;
+export '/pages/material/gerenciar_material/gerenciar_material_widget.dart'
+    show GerenciarMaterialWidget;
+export '/pages/lider/gerenciar_equipe/gerenciar_equipe_widget.dart'
+    show GerenciarEquipeWidget;
+export '/pages/atividade/lista_participantes/lista_participantes_widget.dart'
+    show ListaParticipantesWidget;
+export '/pages/relatorio/relatorio_projeto/relatorio_projeto_widget.dart'
+    show RelatorioProjetoWidget;
+export '/pages/login/listar_equipe/listar_equipe_widget.dart'
+    show ListarEquipeWidget;
+export '/pages/lider/nomear_lideres/nomear_lideres_widget.dart'
+    show NomearLideresWidget;
+export '/pages/doacoes/aviso_doacao_confirmada/aviso_doacao_confirmada_widget.dart'
+    show AvisoDoacaoConfirmadaWidget;
+export '/pages/grupo_os_pioneiros/home_pioneiros/home_pioneiros_widget.dart'
+    show HomePioneirosWidget;
+export '/pages/grupo_os_pioneiros/manual_pioneiros/manual_pioneiros_widget.dart'
+    show ManualPioneirosWidget;
+export '/pages/cursos_formacao/cursos_formacao_widget.dart'
+    show CursosFormacaoWidget;
+export '/pages/grupo_os_pioneiros/curso_discipulo/curso_discipulo_widget.dart'
+    show CursoDiscipuloWidget;
+export '/pages/grupo_os_pioneiros/curso_explorador/curso_explorador_widget.dart'
+    show CursoExploradorWidget;
+export '/pages/grupo_os_pioneiros/curso_aventureiro/curso_aventureiro_widget.dart'
+    show CursoAventureiroWidget;
+export '/pages/grupo_os_pioneiros/curso_aprendiz/curso_aprendiz_widget.dart'
+    show CursoAprendizWidget;
+export '/pages/ministerios/quiz_musicos/quiz_musicos_widget.dart'
+    show QuizMusicosWidget;
+export '/pages/login/nivel_acesso/nivel_acesso_widget.dart'
+    show NivelAcessoWidget;
+export '/pages/login/nivel_acesso_copy/nivel_acesso_copy_widget.dart'
+    show NivelAcessoCopyWidget;
+export '/pages/organizacao/dashboard_organizacao/dashboard_organizacao_widget.dart'
+    show DashboardOrganizacaoWidget;
+export '/pages/home_projeto/home_projeto_widget.dart' show HomeProjetoWidget;
+export '/pages/atividade/home_atividade/home_atividade_widget.dart'
+    show HomeAtividadeWidget;
+export '/pages/rascunho/ajuda_perguntas/ajuda_perguntas_widget.dart'
+    show AjudaPerguntasWidget;
+export '/pages/relatorio/home_relatorio/home_relatorio_widget.dart'
+    show HomeRelatorioWidget;
+export '/pages/cursos/home_curso/home_curso_widget.dart' show HomeCursoWidget;
+export '/pages/cursos/material/material_widget.dart' show MaterialWidget;
+export '/pages/cursos/pergunta/pergunta_widget.dart' show PerguntaWidget;
+export '/pages/material/page_material/page_material_widget.dart'
+    show PageMaterialWidget;
+export '/minhas_duvidas/minhas_duvidas_widget.dart' show MinhasDuvidasWidget;
