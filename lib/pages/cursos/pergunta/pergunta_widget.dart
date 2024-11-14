@@ -2675,14 +2675,7 @@ class _PerguntaWidgetState extends State<PerguntaWidget>
                                                                   .checkboxGroupValueController2 ??=
                                                               FormFieldController<
                                                                   List<String>>(
-                                                            List.from([
-                                                                  FFLocalizations.of(
-                                                                          context)
-                                                                      .getText(
-                                                                    'afz45ydt' /* Financeira */,
-                                                                  )
-                                                                ] ??
-                                                                []),
+                                                            [],
                                                           ),
                                                           activeColor:
                                                               FlutterFlowTheme.of(

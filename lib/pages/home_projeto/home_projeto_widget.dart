@@ -58,75 +58,7 @@ class _HomeProjetoWidgetState extends State<HomeProjetoWidget>
     _model.textFieldEditEmailFocusNode2 ??= FocusNode();
 
     animationsMap.addAll({
-      'containerOnPageLoadAnimation1': AnimationInfo(
-        trigger: AnimationTrigger.onPageLoad,
-        effectsBuilder: () => [
-          VisibilityEffect(duration: 1.ms),
-          FadeEffect(
-            curve: Curves.easeInOut,
-            delay: 0.0.ms,
-            duration: 300.0.ms,
-            begin: 0.0,
-            end: 1.0,
-          ),
-          MoveEffect(
-            curve: Curves.easeInOut,
-            delay: 0.0.ms,
-            duration: 300.0.ms,
-            begin: const Offset(0.0, 140.0),
-            end: const Offset(0.0, 0.0),
-          ),
-          ScaleEffect(
-            curve: Curves.easeInOut,
-            delay: 0.0.ms,
-            duration: 300.0.ms,
-            begin: const Offset(0.9, 0.9),
-            end: const Offset(1.0, 1.0),
-          ),
-          TiltEffect(
-            curve: Curves.easeInOut,
-            delay: 0.0.ms,
-            duration: 300.0.ms,
-            begin: const Offset(-0.349, 0),
-            end: const Offset(0, 0),
-          ),
-        ],
-      ),
-      'containerOnPageLoadAnimation2': AnimationInfo(
-        trigger: AnimationTrigger.onPageLoad,
-        effectsBuilder: () => [
-          VisibilityEffect(duration: 1.ms),
-          FadeEffect(
-            curve: Curves.easeInOut,
-            delay: 0.0.ms,
-            duration: 300.0.ms,
-            begin: 0.0,
-            end: 1.0,
-          ),
-          MoveEffect(
-            curve: Curves.easeInOut,
-            delay: 0.0.ms,
-            duration: 300.0.ms,
-            begin: const Offset(0.0, 140.0),
-            end: const Offset(0.0, 0.0),
-          ),
-          ScaleEffect(
-            curve: Curves.easeInOut,
-            delay: 0.0.ms,
-            duration: 300.0.ms,
-            begin: const Offset(0.9, 0.9),
-            end: const Offset(1.0, 1.0),
-          ),
-          TiltEffect(
-            curve: Curves.easeInOut,
-            delay: 0.0.ms,
-            duration: 300.0.ms,
-            begin: const Offset(-0.349, 0),
-            end: const Offset(0, 0),
-          ),
-        ],
-      ),
-      'containerOnPageLoadAnimation3': AnimationInfo(
+      'containerOnPageLoadAnimation': AnimationInfo(
         trigger: AnimationTrigger.onPageLoad,
         effectsBuilder: () => [
           VisibilityEffect(duration: 1.ms),
@@ -162,7 +94,12 @@ class _HomeProjetoWidgetState extends State<HomeProjetoWidget>
       ),
     });
 
-    WidgetsBinding.instance.addPostFrameCallback((_) => safeSetState(() {}));
+    WidgetsBinding.instance.addPostFrameCallback((_) => safeSetState(() {
+          _model.textFieldEditCpfTextController1?.text =
+              FFLocalizations.of(context).getText(
+            '34b488um' /* 999.999.999-99 */,
+          );
+        }));
   }
 
   @override
@@ -726,7 +663,7 @@ class _HomeProjetoWidgetState extends State<HomeProjetoWidget>
                                       ),
                                     ),
                                   ).animateOnPageLoad(animationsMap[
-                                      'containerOnPageLoadAnimation1']!),
+                                      'containerOnPageLoadAnimation']!),
                                 ),
                               ),
                               Expanded(
@@ -2024,8 +1961,7 @@ class _HomeProjetoWidgetState extends State<HomeProjetoWidget>
                                     ),
                                   ),
                                 ),
-                              ).animateOnPageLoad(animationsMap[
-                                  'containerOnPageLoadAnimation2']!),
+                              ),
                             ),
                           ),
                           Column(
@@ -2520,7 +2456,7 @@ class _HomeProjetoWidgetState extends State<HomeProjetoWidget>
                                                             FFLocalizations.of(
                                                                     context)
                                                                 .getText(
-                                                              '0d5schs1' /* Financeira */,
+                                                              '0d5schs1' /* Igreja */,
                                                             )
                                                           ] ??
                                                           []),
@@ -2558,8 +2494,7 @@ class _HomeProjetoWidgetState extends State<HomeProjetoWidget>
                                         ),
                                       ),
                                     ),
-                                  ).animateOnPageLoad(animationsMap[
-                                      'containerOnPageLoadAnimation3']!),
+                                  ),
                                 ),
                               ),
                               Expanded(

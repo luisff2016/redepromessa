@@ -8826,6 +8826,11 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': '',
       'es': '',
     },
+    '34b488um': {
+      'pt': '999.999.999-99',
+      'en': '',
+      'es': '',
+    },
     '77b3j2db': {
       'pt': 'Descrição do projeto',
       'en': '',
@@ -9062,7 +9067,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': '',
     },
     '0d5schs1': {
-      'pt': 'Financeira',
+      'pt': 'Igreja',
       'en': '',
       'es': '',
     },
@@ -9820,11 +9825,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': '',
       'es': '',
     },
-    'omk7a6ev': {
-      'pt': 'Financeira',
-      'en': '',
-      'es': '',
-    },
     'idovjs13': {
       'pt': 'Salvar',
       'en': '',
@@ -10145,11 +10145,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'pcajzkxd': {
       'pt': 'Ministério',
-      'en': '',
-      'es': '',
-    },
-    '5sp7zkbo': {
-      'pt': 'Financeira',
       'en': '',
       'es': '',
     },
@@ -10619,11 +10614,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': '',
       'es': '',
     },
-    'afz45ydt': {
-      'pt': 'Financeira',
-      'en': '',
-      'es': '',
-    },
     'dp22i8dq': {
       'pt': 'Salvar',
       'en': '',
@@ -10954,11 +10944,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'dfe47ia5': {
       'pt': 'Ministério',
-      'en': '',
-      'es': '',
-    },
-    '969p995c': {
-      'pt': 'Financeira',
       'en': '',
       'es': '',
     },

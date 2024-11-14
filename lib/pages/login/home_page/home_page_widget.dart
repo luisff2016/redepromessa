@@ -1,5 +1,6 @@
 import '/components/btn_doar_widget.dart';
 import '/components/icone_usuario_widget.dart';
+import '/components/titulo_myosc_menu_widget.dart';
 import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
@@ -109,6 +110,14 @@ class _HomePageWidgetState extends State<HomePageWidget>
               const Spacer(),
               Expanded(
                 flex: 2,
+                child: wrapWithModel(
+                  model: _model.tituloMyoscMenuModel,
+                  updateCallback: () => safeSetState(() {}),
+                  child: const TituloMyoscMenuWidget(),
+                ),
+              ),
+              Expanded(
+                flex: 2,
                 child: Align(
                   alignment: const AlignmentDirectional(0.0, 0.0),
                   child: Container(
@@ -129,7 +138,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                 ),
               ),
               Expanded(
-                flex: 12,
+                flex: 10,
                 child: Padding(
                   padding: const EdgeInsets.all(4.0),
                   child: Container(

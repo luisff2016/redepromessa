@@ -373,7 +373,7 @@ class _VerProjetoAceitoWidgetState extends State<VerProjetoAceitoWidget>
                                                   'rqxhs1hk' /* Doar */,
                                                 ),
                                                 options: FFButtonOptions(
-                                                  width: 50.0,
+                                                  width: 100.0,
                                                   height: 40.0,
                                                   padding: const EdgeInsetsDirectional
                                                       .fromSTEB(

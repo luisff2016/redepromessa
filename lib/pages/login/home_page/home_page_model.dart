@@ -1,5 +1,6 @@
 import '/components/btn_doar_widget.dart';
 import '/components/icone_usuario_widget.dart';
+import '/components/titulo_myosc_menu_widget.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'home_page_widget.dart' show HomePageWidget;
 import 'package:flutter/material.dart';
@@ -7,6 +8,8 @@ import 'package:flutter/material.dart';
 class HomePageModel extends FlutterFlowModel<HomePageWidget> {
   ///  State fields for stateful widgets in this page.
 
+  // Model for TituloMyoscMenu component.
+  late TituloMyoscMenuModel tituloMyoscMenuModel;
   // Model for IconeUsuario component.
   late IconeUsuarioModel iconeUsuarioModel;
   // State field(s) for PageView widget.
@@ -28,6 +31,7 @@ class HomePageModel extends FlutterFlowModel<HomePageWidget> {
 
   @override
   void initState(BuildContext context) {
+    tituloMyoscMenuModel = createModel(context, () => TituloMyoscMenuModel());
     iconeUsuarioModel = createModel(context, () => IconeUsuarioModel());
     btnDoarModel1 = createModel(context, () => BtnDoarModel());
     btnDoarModel2 = createModel(context, () => BtnDoarModel());
@@ -37,6 +41,7 @@ class HomePageModel extends FlutterFlowModel<HomePageWidget> {
 
   @override
   void dispose() {
+    tituloMyoscMenuModel.dispose();
     iconeUsuarioModel.dispose();
     btnDoarModel1.dispose();
     btnDoarModel2.dispose();

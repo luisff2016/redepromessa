@@ -209,26 +209,21 @@ class _HomeCursoWidgetState extends State<HomeCursoWidget>
                     ),
                     Expanded(
                       flex: 1,
-                      child: Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(
-                            12.0, 6.0, 12.0, 6.0),
-                        child: Text(
-                          FFLocalizations.of(context).getText(
-                            'sui37dl8' /* Curso */,
-                          ),
-                          textAlign: TextAlign.center,
-                          style: FlutterFlowTheme.of(context)
-                              .displaySmall
-                              .override(
-                                fontFamily: 'Readex Pro',
-                                color: FlutterFlowTheme.of(context).tertiary,
-                                letterSpacing: 0.0,
-                              ),
+                      child: Text(
+                        FFLocalizations.of(context).getText(
+                          'sui37dl8' /* Curso */,
                         ),
+                        textAlign: TextAlign.center,
+                        style:
+                            FlutterFlowTheme.of(context).displaySmall.override(
+                                  fontFamily: 'Readex Pro',
+                                  color: FlutterFlowTheme.of(context).tertiary,
+                                  letterSpacing: 0.0,
+                                ),
                       ),
                     ),
                     Expanded(
-                      flex: 12,
+                      flex: 10,
                       child: Column(
                         children: [
                           Align(
@@ -2675,14 +2670,7 @@ class _HomeCursoWidgetState extends State<HomeCursoWidget>
                                                                   .checkboxGroupValueController2 ??=
                                                               FormFieldController<
                                                                   List<String>>(
-                                                            List.from([
-                                                                  FFLocalizations.of(
-                                                                          context)
-                                                                      .getText(
-                                                                    '5sp7zkbo' /* Financeira */,
-                                                                  )
-                                                                ] ??
-                                                                []),
+                                                            [],
                                                           ),
                                                           activeColor:
                                                               FlutterFlowTheme.of(

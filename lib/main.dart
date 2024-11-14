@@ -210,7 +210,7 @@ class _NavBarPageState extends State<NavBarPage> {
                   color: currentIndex == 1
                       ? FlutterFlowTheme.of(context).tertiary
                       : FlutterFlowTheme.of(context).secondary,
-                  size: 24.0,
+                  size: 16.0,
                 ),
                 Text(
                   FFLocalizations.of(context).getText(

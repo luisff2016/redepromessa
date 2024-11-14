@@ -1,5 +1,4 @@
 import '/auth/firebase_auth/auth_util.dart';
-import '/backend/backend.dart';
 import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
@@ -138,43 +137,17 @@ class _IconeUsuarioWidgetState extends State<IconeUsuarioWidget>
                               padding: const EdgeInsetsDirectional.fromSTEB(
                                   4.0, 0.0, 0.0, 0.0),
                               child: AuthUserStreamWidget(
-                                builder: (context) =>
-                                    StreamBuilder<UsersRecord>(
-                                  stream: UsersRecord.getDocument(
-                                      currentUserReference!),
-                                  builder: (context, snapshot) {
-                                    // Customize what your widget looks like when it's loading.
-                                    if (!snapshot.hasData) {
-                                      return Center(
-                                        child: SizedBox(
-                                          width: 50.0,
-                                          height: 50.0,
-                                          child: CircularProgressIndicator(
-                                            valueColor:
-                                                AlwaysStoppedAnimation<Color>(
-                                              FlutterFlowTheme.of(context)
-                                                  .primary,
-                                            ),
-                                          ),
-                                        ),
-                                      );
-                                    }
-
-                                    final textUsersRecord = snapshot.data!;
-
-                                    return Text(
-                                      valueOrDefault<String>(
-                                        currentUserDisplayName,
-                                        'Olá!',
+                                builder: (context) => Text(
+                                  valueOrDefault<String>(
+                                    currentUserDisplayName,
+                                    'Olá!',
+                                  ),
+                                  style: FlutterFlowTheme.of(context)
+                                      .bodySmall
+                                      .override(
+                                        fontFamily: 'Inter',
+                                        letterSpacing: 0.0,
                                       ),
-                                      style: FlutterFlowTheme.of(context)
-                                          .bodySmall
-                                          .override(
-                                            fontFamily: 'Inter',
-                                            letterSpacing: 0.0,
-                                          ),
-                                    );
-                                  },
                                 ),
                               ),
                             ),
@@ -200,7 +173,7 @@ class _IconeUsuarioWidgetState extends State<IconeUsuarioWidget>
               ),
             ),
             Expanded(
-              flex: 1,
+              flex: 2,
               child: Row(
                 mainAxisSize: MainAxisSize.max,
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -208,12 +181,12 @@ class _IconeUsuarioWidgetState extends State<IconeUsuarioWidget>
                   FlutterFlowIconButton(
                     borderColor: Colors.transparent,
                     borderRadius: 20.0,
-                    buttonSize: 30.0,
+                    buttonSize: 48.0,
                     fillColor: FlutterFlowTheme.of(context).primary,
                     icon: Icon(
                       Icons.notifications_none,
                       color: FlutterFlowTheme.of(context).info,
-                      size: 12.0,
+                      size: 30.0,
                     ),
                     onPressed: () async {
                       context.pushNamed('MinhasNotificacoes');
@@ -222,12 +195,12 @@ class _IconeUsuarioWidgetState extends State<IconeUsuarioWidget>
                   FlutterFlowIconButton(
                     borderColor: Colors.transparent,
                     borderRadius: 20.0,
-                    buttonSize: 30.0,
+                    buttonSize: 48.0,
                     fillColor: FlutterFlowTheme.of(context).primary,
                     icon: FaIcon(
                       FontAwesomeIcons.question,
                       color: FlutterFlowTheme.of(context).info,
-                      size: 12.0,
+                      size: 30.0,
                     ),
                     onPressed: () async {
                       context.pushNamed('AjudaPerguntas');

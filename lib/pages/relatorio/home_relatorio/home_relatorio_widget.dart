@@ -2640,14 +2640,7 @@ class _HomeRelatorioWidgetState extends State<HomeRelatorioWidget>
                                                                   .checkboxGroupValueController2 ??=
                                                               FormFieldController<
                                                                   List<String>>(
-                                                            List.from([
-                                                                  FFLocalizations.of(
-                                                                          context)
-                                                                      .getText(
-                                                                    'omk7a6ev' /* Financeira */,
-                                                                  )
-                                                                ] ??
-                                                                []),
+                                                            [],
                                                           ),
                                                           activeColor:
                                                               FlutterFlowTheme.of(

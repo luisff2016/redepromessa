@@ -143,13 +143,13 @@ class _PageMaterialWidgetState extends State<PageMaterialWidget>
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).secondaryBackground,
-        floatingActionButton: FloatingActionButton(
+        floatingActionButton: FloatingActionButton.extended(
           onPressed: () async {
             context.safePop();
           },
           backgroundColor: FlutterFlowTheme.of(context).primary,
           elevation: 8.0,
-          child: Icon(
+          label: Icon(
             Icons.keyboard_return,
             color: FlutterFlowTheme.of(context).info,
             size: 24.0,
@@ -190,21 +190,17 @@ class _PageMaterialWidgetState extends State<PageMaterialWidget>
                     ),
                     Expanded(
                       flex: 1,
-                      child: Padding(
-                        padding: const EdgeInsets.all(4.0),
-                        child: Text(
-                          FFLocalizations.of(context).getText(
-                            'qserogip' /* Material */,
-                          ),
-                          textAlign: TextAlign.center,
-                          style: FlutterFlowTheme.of(context)
-                              .displaySmall
-                              .override(
-                                fontFamily: 'Readex Pro',
-                                color: FlutterFlowTheme.of(context).tertiary,
-                                letterSpacing: 0.0,
-                              ),
+                      child: Text(
+                        FFLocalizations.of(context).getText(
+                          'qserogip' /* Material */,
                         ),
+                        textAlign: TextAlign.center,
+                        style: FlutterFlowTheme.of(context)
+                            .headlineMedium
+                            .override(
+                              fontFamily: 'Readex Pro',
+                              letterSpacing: 0.0,
+                            ),
                       ),
                     ),
                     Expanded(
@@ -2811,14 +2807,7 @@ class _PageMaterialWidgetState extends State<PageMaterialWidget>
                                                                 FormFieldController<
                                                                     List<
                                                                         String>>(
-                                                              List.from([
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      '969p995c' /* Financeira */,
-                                                                    )
-                                                                  ] ??
-                                                                  []),
+                                                              [],
                                                             ),
                                                             activeColor:
                                                                 FlutterFlowTheme.of(
@@ -2914,7 +2903,7 @@ class _PageMaterialWidgetState extends State<PageMaterialWidget>
                         ),
                       ),
                     ),
-                    const Spacer(),
+                    const Spacer(flex: 2),
                   ],
                 ),
               ),

@@ -1,4 +1,3 @@
-import '/components/titulo_rede_pro_widget.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'editar_usuario_widget.dart' show EditarUsuarioWidget;
 import 'package:flutter/material.dart';
@@ -6,8 +5,6 @@ import 'package:flutter/material.dart';
 class EditarUsuarioModel extends FlutterFlowModel<EditarUsuarioWidget> {
   ///  State fields for stateful widgets in this page.
 
-  // Model for TituloRedePro component.
-  late TituloRedeProModel tituloRedeProModel;
   // State field(s) for txf_up_display_name widget.
   FocusNode? txfUpDisplayNameFocusNode;
   TextEditingController? txfUpDisplayNameTextController;
@@ -34,13 +31,10 @@ class EditarUsuarioModel extends FlutterFlowModel<EditarUsuarioWidget> {
       FFUploadedFile(bytes: Uint8List.fromList([]));
 
   @override
-  void initState(BuildContext context) {
-    tituloRedeProModel = createModel(context, () => TituloRedeProModel());
-  }
+  void initState(BuildContext context) {}
 
   @override
   void dispose() {
-    tituloRedeProModel.dispose();
     txfUpDisplayNameFocusNode?.dispose();
     txfUpDisplayNameTextController?.dispose();
 
